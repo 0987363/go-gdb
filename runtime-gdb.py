@@ -10,9 +10,9 @@ path to this file based on the path to the runtime package.
 """
 
 # Known issues:
-#    - pretty printing only works for the 'native' strings. E.g. 'type
-#      foo string' will make foo a plain struct in the eyes of gdb,
-#      circumventing the pretty print triggering.
+#-pretty printing only works for the 'native' strings. E.g. 'type
+#foo string' will make foo a plain struct in the eyes of gdb,
+#circumventing the pretty print triggering.
 
 
 from __future__ import print_function
